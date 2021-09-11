@@ -18,6 +18,11 @@ export class RecipeListComponent implements OnInit {
       'This is just for testing2',
       'https://cto-food.com/swfiles/files/shutterstock_203111092.jpg?nc=1620636472'
     ),
+            new Recipe(
+      'A test recipe3',
+      'This is just for testing3',
+      'https://cto-food.com/swfiles/files/shutterstock_203111092.jpg?nc=1620636472'
+    ),
   ];
   constructor() { }
 

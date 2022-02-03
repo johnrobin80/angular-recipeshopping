@@ -36,5 +36,8 @@ export class RecipeDetailComponent implements OnInit {
     //console.log('Edit Works');
   }
 
-  onDeleteRecipe() {}
+  onDeleteRecipe() {
+    this.recipeService.deleteRecipe(this.id);
+    this.router.navigate(['/recipes']);
+  }
 }
